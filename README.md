@@ -1,4 +1,4 @@
-# ResNet-18 MNIST Reproduction & Ablation Study
+
 
 This repository contains the reproduction of ResNet-18 on MNIST and an ablation study of modern training strategies.
 
