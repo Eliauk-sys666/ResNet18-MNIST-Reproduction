@@ -1,4 +1,4 @@
-
+# ResNet-18 MNIST Reproduction & Ablation Study
 
 This repository contains the reproduction of ResNet-18 on MNIST and an ablation study of modern training strategies.
 
@@ -17,4 +17,4 @@ This repository contains the reproduction of ResNet-18 on MNIST and an ablation 
 
 ## Note on Weights
 Due to GitHub's file size limit (>25MB), the model weight files (`*.pth`) are not uploaded. 
-You can easily reproduce the best model (99.36% accuracy) by running `python train_resnet.py` locally.# ResNet18-MNIST-Reproduction
+You can easily reproduce the best model (99.36% accuracy) by running `python train_resnet.py` locally.
