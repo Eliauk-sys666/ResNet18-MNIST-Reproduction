@@ -5,7 +5,7 @@ This repository contains the reproduction of ResNet-18 on MNIST and an ablation 
 ## Models
 - **E1 Baseline**: ResNet-18 + Adam (Best Acc: 99.01%)
 - **E2 Dropout**: ResNet-18 + Adam + Dropout (Best Acc: 98.68%)
-- **E3 Modern (Ours)**: ResNet-18 + AdamW + Dropout + CosineAnnealingLR (Best Acc: **99.36%**)
+- **E3 Modern (Ours)**: ResNet-18 + AdamW + Dropout + CosineAnnealingLR (Best Acc: **99.31%**)
 
 ## Files
 - `train_resnet.py`: Main training script. You can change `USE_DROPOUT` and optimizer settings to reproduce E1, E2, and E3.
